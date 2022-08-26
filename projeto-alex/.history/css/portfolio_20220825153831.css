@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+:root {
+  --main-bg-color:#111111;
+  --text-color:#FFFFFF;
+  --ff-text:'Overpass', sans-serif;
+  --color-button: #D9D9D9;
+  --color-butttonh:#afafaf ;
+  font-size: 62.5%;
+}
+body{
+  background-color:var(--main-bg-color);
+  font-family:'Overpass', sans-serif;;
+}
+header{
+  margin-top: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+header nav{
+  font-size: 1.3rem;
+  display: flex;
+  align-items:center;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  color:var(--text-color);
+}
+header nav img {
+  width: 30px;
+}
+.renata-santana{
+  margin-top: 9rem;
+  display:flex;
+  justify-content: center;
+}
+main button {
+  border: none;
+  background: none;
+}
+button img {
+  border: 2px solid white;
+  border: 0;
+  width: 50rem;
+  height:30rem;
+}
+.modal1{
+  position:fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-color: rgba(0,0,0,0.7);
+  transform: scale(1,1);
+  opacity: 0;
+  visibility: hidden;
+  transition:visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.modal1-content{
+  border: 4px solid white;
+  width: 568px;
+  height: 328px;
+  border-radius:5px;
+}
+.legend1-control span {
+  color: white;
+  position: fixed;
+  top:30px;
+  right:30px;
+  width: 30px;
+  float: right;
+  font-size: 60px;
+  cursor: pointer;
+}
+.legend-control span:hover{
+  color:rgb(180, 180, 180);
+}
+.show-modal{
+  opacity: 1;
+  visibility:visible;
+  transform: scale(1.0);
+}
+footer{
+  margin-top: 6rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  color: var(--text-color);
+}
+footer img{
+  width:20px;
+}

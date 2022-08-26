@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root {
+  --main-bg-color:#111111;
+  font-size: 62.5%;
+}
+body{
+  background-color:var(--main-bg-color);
+}
+header{
+  margin-top: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+header nav{
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  color:white;
+}
+header nav img {
+  width: 30px;
+  
+}

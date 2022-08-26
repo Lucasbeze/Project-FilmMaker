@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/css/portfolio.css">
+  <link rel="shortcut icon" href="../imagens/faviconlogo.png" type="image/x-icon">
+
+  <script>
+    function showModal() {
+        const element = document.querySelector('.modal')
+        element.classList.add('show-modal')
+        if(element === )
+      }
+
+    function hideModal() {
+      const element = document.querySelector('.modal')
+      element.classList.remove('show-modal')
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="../imagens/logonovo.png" alt="logo-alextokuda"></a>
+    <nav>
+      <a href="/">Welcome</a>
+      <a href="/about">About</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact</a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="../imagens/instagram.png" alt="icon-instagram"></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="../imagens/youtube.png" alt="icon-youtube"></a>
+    </nav>
+  </header>
+  <main>
+
+    <div class="renata-santana" id="renata-santana">
+      <button onclick="showModal()"><img src="../imagens/renata-santana-thumbnail.jpg" alt="renata-santana-thumbnail"></button>
+      <div class="modal">
+        <div class="legend-control">
+          <span onclick="hideModal()">&times;</span>
+        </div>
+        <div class="modal-content">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tYmuSActO7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="super-drift">
+      <button onclick="showModal()"><img src="../imagens/superdrif-thumbnail.jpg" alt="superdrif-thumbnail"></button>
+    </div>
+    <div class="modal">
+      <div class="legend-control">
+        <span onclick="hideModal()">&times;</span>
+      </div>
+      <div class="modal-content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X2zDDANgHrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="mansueto-benassi">
+        <button onclick="showModal()"><img src="../imagens/mansueto-benassi-thumbnail.jpg" alt="mansueto-benassi-thumbnail"></button>
+
+        <div class="modal">
+          <div class="legend-control">
+            <span onclick="hideModal()">&times;</span>
+          </div>
+          <div class="modal-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xDHhkRl0Y3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+    <div class="magi">
+      <button onclick="showModal()"><img src="../imagens/magi-thumbnail.jpg" alt=""></button>
+
+      <div class="modal">
+          <div class="legend-control">
+            <span onclick="hideModal()">&times;</span>
+          </div>
+          <div class="modal-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F13hWUfTRtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <img src="../imagens/copyright.png" alt="copyright-icon">
+    <p>Copyright - Termos e condições . Política de privacidade. </p>
+  </footer> 
+  </body>
+  </html>

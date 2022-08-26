@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+:root {
+  --main-bg-color:#111111;
+  --text-color:#FFFFFF;
+  --ff-text:'Overpass', sans-serif;
+  --color-button: #D9D9D9;
+  --color-butttonh:#afafaf ;
+  font-size: 62.5%;
+}
+body{
+  background-color:var(--main-bg-color);
+  font-family:'Overpass', sans-serif;;
+}
+header{
+  margin-top: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+header nav{
+  font-size: 1.3rem;
+  display: flex;
+  align-items:center;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  color:var(--text-color);
+}
+header nav img {
+  width: 30px;
+}
+main {
+  text-align: center;
+}
+.main-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.img {
+  width: ;
+}
+footer{
+  margin-top: 6rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  color: var(--text-color);
+}
+footer img{
+  width:20px;
+}
